@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html{
+    font-size: 62.5%;
+    font-style: Aeonik;
+  }
+  
+  h1{
+    font-size: 7.5em;
+    text-align: left;
+  }
+
+  h2{
+    font-size: 6.5rem;
+  }
+
+  h3{
+    font-size: 2rem;
+  }
+  
+  input{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E8EAEC;
+    border-radius: 5px;
+    opacity: 1;
+    height: 30px;
+    width: 500px;
+    padding-left: 10px;
+    margin: 20px;
+  }
+  
+  input::placeholder{
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #606469;
+  }
+  
+  button{
+    color: white;
+    border: none;
+    height: 30px;
+    width: 100px;
+    margin-left: 3px;
+    background: #124DF9 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  @media screen and (max-width: 767px) {
+    h1{
+      font-size: 3em;
+    }
+    h2{
+      font-size: 2em;
+    }
+    h3{
+      font-size: 1.5em;
+    }
+    input{
+      width: 250px;
+      height: 25px;
+    }
+    input::placeholder{
+      font-size: 1.2em;
+    }
+    button{
+      width: 75px;
+      height: 25px;
+    }
+    
+    .characters__container{
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    }
+  }
+
+  
