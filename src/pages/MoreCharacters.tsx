@@ -33,7 +33,6 @@ const MoreCharacters: FC = () => {
 
     useEffect(() => {
         async function getData() {
-            //Tengo que corregir tambien esto para ts
             const request = await axios({ url: `https://rickandmortyapi.com/api/character/?page=${page}`, method: 'get' })
             let infoCharacters = request.data.results
             console.log('infoCharacters', infoCharacters)
